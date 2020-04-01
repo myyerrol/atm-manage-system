@@ -1,6 +1,6 @@
-create database automatic_teller_machine_system;
+create database atm_management_system;
 
-use automatic_teller_machine_system;
+use atm_management_system;
 
 create table user_information(
     user_name  varchar(15) not null,

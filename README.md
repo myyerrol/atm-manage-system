@@ -1,4 +1,4 @@
-# automatic_teller_machine_system
+# ATM Management System
 
 ## Screenshots:
 ![atm_main_function](.images/atm_main_function_form.png)
@@ -14,7 +14,7 @@
 - MySQL: 5.5.46
 
 ## Develop Description:
-The **automatic_teller_machine_system** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory.
+The **ATM Management System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory.
 
 - **bin**: This file directory include executable binary file.
 - **doc**: This file directory include created and backup MySQL files, project documentations and project flowcharts.
@@ -33,10 +33,10 @@ mysql -u username -p password
 
 In the project doc directory, there is a library management_system_backup.sql, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
 ``` bash
-mysql -u username -p password [database name] < automatic_teller_machine_system_backup.sql
+mysql -u username -p password [database name] < atm_management_system_backup.sql
 ```
 
 Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
 ``` bash
-./automatic_teller_machine_system
+./atm_management_system
 ```

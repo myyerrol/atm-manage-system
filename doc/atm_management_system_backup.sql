@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.46, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: automatic_teller_machine_system
+-- Host: localhost    Database: atm_management_system
 -- ------------------------------------------------------
 -- Server version	5.5.46-0ubuntu0.14.04.2
 
