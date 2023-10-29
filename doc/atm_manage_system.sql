@@ -1,6 +1,6 @@
-create database atm_management_system;
+create database atm_manage_system;
 
-use atm_management_system;
+use atm_manage_system;
 
 create table user_information(
     user_name  varchar(15) not null,

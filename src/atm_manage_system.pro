@@ -9,7 +9,7 @@ QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = atm_management_system
+TARGET = atm_manage_system
 TEMPLATE = app
 
 
